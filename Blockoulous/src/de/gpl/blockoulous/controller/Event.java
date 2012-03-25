@@ -1,0 +1,5 @@
+package de.gpl.blockoulous.controller;
+
+public enum Event {
+	RESTART, MOVE_DOWN, MOVE_LEFT, MOVE_RIGHT, PAUSE, SHOW_NEXT_TOGGLE, SHOW_SHADOW_TOGGLE, DROP, ROTATE_CW, ROTATE_DOUBLE;
+}

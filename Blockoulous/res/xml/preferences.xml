@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/preference_screen_title" android:key="preference_screen">
+    <EditTextPreference android:title="@string/preferences_username_title" android:key="@string/preferences_username" android:summary="@string/preferences_username_summary" android:defaultValue="@string/preferences_username_default"/><PreferenceCategory android:title="@string/preferences_interface_title" android:key="preferences_interface"><CheckBoxPreference android:key="@string/preferences_interface_vibrate_on_clear" android:title="@string/preferences_interface_vibrate_on_clear_title" android:summary="@string/preferences_interface_vibrate_on_clear_summary" android:defaultValue="true" /><CheckBoxPreference android:key="@string/preferences_interface_get_asked_at_back" android:summary="@string/preferences_interface_get_asked_at_back_summary" android:title="@string/preferences_interface_get_asked_at_back_title" android:defaultValue="true"/></PreferenceCategory><PreferenceCategory android:title="@string/preferences_control_title" android:key="preferences_control_title">
+        
+        <CheckBoxPreference android:summary="@string/preferences_control_trackball_summary" android:title="@string/preferences_control_trackball_title" android:defaultValue="true" android:key="@string/preferences_control_trackball"/><CheckBoxPreference android:key="@string/preferences_control_gestures" android:summary="@string/preferences_control_gesture_summary" android:title="@string/preferences_control_gestures_title" android:defaultValue="true" /><CheckBoxPreference android:key="@string/preferences_control_buttons" android:summary="@string/preferences_control_buttons_summary" android:title="@string/preferences_control_buttons_title" android:defaultValue="false"/><CheckBoxPreference android:key="@string/preferences_control_buttons_continous" android:title="@string/preferences_control_buttons_continous_title" android:summary="@string/preferences_control_buttons_continous_summary" android:defaultValue="false"/>
+        
+        
+    </PreferenceCategory><PreferenceCategory android:key="preferences_game_options" android:title="@string/preferences"><CheckBoxPreference android:title="@string/preferences_show_shadow_title" android:key="@string/preferences_show_shadow" android:summary="@string/preferences_show_shadow_summary" android:defaultValue="@string/preferences_show_shadow_default" /><CheckBoxPreference android:summary="@string/preferences_show_next_summary" android:title="@string/preferences_show_next_title" android:key="@string/preferences_show_next" android:defaultValue="@string/preferences_show_next_default" /><CheckBoxPreference android:summary="@string/preferences_wall_kicks_summary" android:title="@string/preferences_wallkicks_enabled_title" android:key="@string/preferences_wallkicks_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:key="@string/preferences_extended_block_set" android:title="@string/preferences_extended_block_set_title" android:summary="@string/preferences_extended_block_set_summary"/>
+</PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preferences_board_title" android:key="preferences_board_title" android:enabled="false">
+        <ListPreference android:key="preferences_game_board_x" android:title="@string/preferences_game_board_x" android:entryValues="@array/preferences_game_board_vals" android:entries="@array/preferences_game_board_val_names" android:defaultValue="@string/preferences_game_board_x_default" android:dialogTitle="@string/preferences_game_board_width_change_x_title"/>
+        <ListPreference android:key="preferences_game_board_y" android:title="@string/preferences_game_board_y" android:entryValues="@array/preferences_game_board_vals" android:entries="@array/preferences_game_board_val_names" android:defaultValue="@string/preferences_game_board_y_default" android:dialogTitle="@string/preferences_game_board_width_change_y_title"/>
+    </PreferenceCategory>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</PreferenceScreen>

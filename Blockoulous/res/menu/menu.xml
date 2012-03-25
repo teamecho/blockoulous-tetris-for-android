@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menuRestart" android:title="@string/menu_restart" android:icon="@android:drawable/ic_menu_revert"></item>
+    <item android:id="@+id/menuDetailedStats" android:title="@string/menu_detailed_stats" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <!-- 
+    <item android:id="@+id/menuPause" android:title="@string/menu_pause_game" android:icon="@android:drawable/ic_menu_rotate"></item>
+     -->
+    <item android:id="@+id/menuPreferences" android:title="@string/menu_preferences" android:icon="@android:drawable/ic_menu_manage"></item>
+    <item android:id="@+id/menuHighscore" android:title="@string/menu_highscore" android:icon="@android:drawable/ic_menu_sort_by_size"></item>
+    <item android:id="@+id/menuSubmitScore" android:title="@string/menuSubmitScore_title" android:icon="@android:drawable/ic_menu_upload"></item>
+    <item android:id="@+id/menuAbout" android:title="@string/menuAbout" android:icon="@android:drawable/ic_menu_help"></item>
+    
+
+</menu>

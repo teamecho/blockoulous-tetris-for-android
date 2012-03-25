@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/adContainerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/game_layout_outer_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <FrameLayout
+                android:id="@+id/gameBoardViewLayout"
+                android:layout_width="219dp"
+                android:layout_height="match_parent" >
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/game_layout_control_relative_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_weight="0.47" >
+
+                <Button
+                    android:id="@+id/buttonControlLeft"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="@string/game_button_left" />
+
+                <Button
+                    android:id="@+id/buttonControlRotate"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/buttonControlLeft"
+                    android:focusable="false"
+                    android:text="@string/game_button_rotate" />
+
+                <Button
+                    android:id="@+id/buttonControlDown"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/buttonControlLeft"
+                    android:focusable="false"
+                    android:text="@string/game_button_down" />
+
+                <Button
+                    android:id="@+id/buttonControlRight"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/buttonControlRotate"
+                    android:focusable="false"
+                    android:text="@string/game_button_right" />
+
+                <Button
+                    android:id="@+id/buttonControlDrop"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/buttonControlRight"
+                    android:layout_alignParentBottom="true"
+                    android:focusable="false"
+                    android:text="@string/game_button_drop" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/game_layout_stats_linear_layout"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_stat_score"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/playgroundScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_dummy"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_stat_level"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/playgroundLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_dummy"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_stat_lines"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/playgroundLines"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_dummy"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_stat_pieces"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/playgroundPieces"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_dummy"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_next"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/playgroundNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_view_dummy"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:visibility="gone" />
+
+                <SurfaceView
+                    android:id="@+id/surfaceView1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

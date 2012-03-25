@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admob_unit_id">NOT_SET</string>
+    <string name="global_yes">Yes</string>
+    <string name="global_no">No</string>
+    <string name="global_do_not_show_again">Do not show again</string>
+    <string name="quit_confirm_title">Really Quit?</string>
+    <string name="quit_confirm_message">This will cause loosing the current game. Maybe you want to use the Home Button.</string>
+    
+    <string name="game_view_stat_score">Score</string>
+    <string name="game_view_stat_level">Level</string>
+    <string name="game_view_stat_lines">Lines</string>
+	<string name="game_view_stat_pieces">Pieces</string>
+	<string name="game_view_next">Next</string>
+	<string name="game_view_dummy">#</string>
+	
+    <string name="game_button_left">left</string>
+    <string name="game_button_right">right</string>
+    <string name="game_button_down">down</string>
+    <string name="game_button_rotate">rotate</string>
+    <string name="game_button_drop">drop</string>
+    		
+    <string name="game_state_over">Game Over</string>
+    <string name="game_state_pause">Game Paused</string>
+    
+    <string name="about_window_title">About</string>
+    		
+    <string name="app_name">Blockoulous</string>
+    <string name="detailed_stats_window_title">Detailed Statistics</string>
+    <string name="highscore_window_title">Highscores</string>
+    <string name="highscore_scores_url">https://github.com/tuedelue/blockoulous</string>
+    <string name="game_view_stat_pieces_detail_title">Detailed Block Statistics</string>
+    
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_pause_game">Pause Game</string>
+    <string name="menu_restart">New Game</string>
+    <string name="menu_highscore">Highscores</string>
+    
+    
+    <string name="preference_screen_title">Game Preferences</string>
+    <string name="preferences_show_shadow_title">Show Shadow</string>
+    <string name="preferences_show_shadow_summary">Show position of current block when dropped immediately</string>
+    <string name="preferences_show_shadow_default">true</string>
+    <string name="preferences_show_next_title">Preview</string>
+    <string name="preferences_show_next_summary">Show preview of next block</string>
+    <string name="preferences_show_next_default">true</string>
+    <string name="preferences_board_title">Game Board</string>
+    <string name="preferences_game_board_x">Width</string>
+    <string name="preferences_game_board_y">Height</string>
+
+    <string name="preferences_game_board_x_default">10</string>
+    <string name="preferences_game_board_y_default">22</string>
+    
+	<string-array name="preferences_game_board_vals">
+	    <item >4</item>
+	    <item >5</item>
+	    <item >6</item>
+	    <item >7</item>
+	    <item >8</item>
+	    <item >9</item>
+	    <item >10</item>
+	    <item >11</item>
+	    <item >12</item>
+	    <item >13</item>
+	    <item >14</item>
+	    <item >15</item>
+	    <item >16</item>
+	    <item >17</item>
+	    <item >18</item>
+	    <item >19</item>
+	    <item >20</item>
+	    <item >21</item>
+	    <item >22</item>
+  	    <item >23</item>
+   	    <item >24</item>
+   	    <item >25</item>
+   	</string-array>
+	<string-array name="preferences_game_board_val_names">
+	    <item >4</item>
+	    <item >5</item>
+	    <item >6</item>
+	    <item >7</item>
+	    <item >8</item>
+	    <item >9</item>
+	    <item >10</item>
+	    <item >11</item>
+	    <item >12</item>
+	    <item >13</item>
+	    <item >14</item>
+	    <item >15</item>
+	    <item >16</item>
+	    <item >17</item>
+	    <item >18</item>
+	    <item >19</item>
+	    <item >20</item>
+	    <item >21</item>
+	    <item >22</item>
+  	    <item >23</item>
+   	    <item >24</item>
+   	    <item >25</item>
+   	</string-array>
+   	    <string name="preferences_game_board_width_change_x_title">Select Width</string>
+   	    <string name="preferences_game_board_width_change_y_title">Select Height</string>	
+
+   	    <string name="preferences_game_board_changed_info">Restart the Game to apply changes.</string>
+   	    <string name="preferences_controls_cannot_disable_buttons">You disabled all controls, Buttons are turned on now.</string>
+   	    
+ 	    <string name="game_state_may_be_lost">Sorry, but current Gamestate may be lost.</string>
+ 	    <string name="game_state_could_not_be_restored">Sorry, but Gamestate could not be restored.</string>
+ 	    <string name="preferences_wallkicks_enabled_title">Wall Kicks</string>
+ 	    <string name="preferences_wall_kicks_summary">Ensures a block to get rotated even at game borders</string>
+ 	    <string name="preferences_control_title">Game Controls</string>
+ 	    <string name="preferences_control_gestures_title">Enable Touch Controls</string>
+ 	    <string name="preferences_control_gesture_summary">Enable this to control the game by gestures</string>
+ 	    <string name="preferences_control_buttons_title">Disable Buttons</string>
+ 	    <string name="preferences_control_buttons_summary">This option diables buttons for game control</string>
+ 	    <string name="menu_detailed_stats">Detailed Stats</string>
+ 	    <string name="preferences">Game Options</string>
+ 	    <string name="preferences_extended_block_set_title">Use Extended Block Set</string>
+ 	    <string name="preferences_extended_block_set_summary">Enable this to use an extended Block Set</string>
+
+ 	    <string name="highscore_submit_failed">Failed to sumbit Score</string>
+ 	    <string name="highscore_submit_success">Congratulations, you made it to #</string>
+ 	    <string name="highscore_submit_dialog_title"></string>
+ 	    <string name="highscore_submit_dialog_message">Submitting</string>
+ 	    <string name="highscore_submit_game_not_over">Your game ist not over yet.</string>
+ 	    <string name="menuAbout">About</string>
+ 	    
+ 	    <string name="preferences_username_title">Name</string>
+ 	    <string name="preferences_username_summary">Your Name that will be used for the Highscore</string>
+ 	    <string name="preferences_username_default">Sunshine</string>
+ 	    <string name="preferences_interface_title">Interface</string>
+ 	    <string name="preferences_interface_get_asked_at_back_title">Confirm Quit</string>
+ 	    <string name="preferences_interface_get_asked_at_back_summary">Get asked before quitting quitting</string>
+ 	    <string name="preferences_interface_vibrate_on_clear_title">Vibrate on Filled Row</string>
+ 	    <string name="preferences_interface_vibrate_on_clear_summary">Turning this on will cause the phone to vibrate on a filled row</string>
+ 	    <string name="preferences_control_buttons_continous_title">Continous Control</string>
+ 	    <string name="preferences_control_buttons_continous_summary">Enabling this will result in continous control of the input instead of single clicks</string>
+ 	    <string name="menuSubmitScore_title">Submit Score</string>
+ 	    <string name="app_description">A Tetris like Block Game</string>
+ 	    <string name="about_market_link">Visit us on Android Market and Rate.</string>
+ 	    <string name="preferences_control_trackball_title">Enable Trackball</string>
+ 	    <string name="preferences_control_trackball_summary">Enabled this option to use the trackball</string>
+ 	    <string name="preferences_control_trackball">preferences_control_trackball</string>
+ 	    <string name="preferences_control_gestures">preferences_control_gestures</string>
+ 	    <string name="preferences_control_buttons">preferences_control_buttons</string>
+ 	    <string name="preferences_control_buttons_continous">preferences_control_buttons_continous</string>
+ 	    <string name="preferences_interface_vibrate_on_clear">preferences_interface_vibrate_on_clear</string>
+ 	    <string name="preferences_interface_get_asked_at_back">preferences_interface_get_asked_at_back</string>
+ 	    <string name="preferences_username">preferences_username</string>
+ 	    <string name="preferences_show_shadow">preferences_show_shadow</string>
+ 	    <string name="preferences_show_next">preferences_show_next</string>
+ 	    <string name="preferences_wallkicks_enabled">preferences_wallkicks_enabled</string>
+ 	    <string name="preferences_extended_block_set">preferences_extended_block_set</string>
+</resources>
